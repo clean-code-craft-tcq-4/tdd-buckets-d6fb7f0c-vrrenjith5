@@ -1,6 +1,9 @@
 #ifndef __CURRENT_SAMPLES_H_
 #define __CURRENT_SAMPLES_H_
 
+#include <iostream>
+#include <algorithm>
+
 typedef struct {
   int numberOfReadingsInRange;
   int range[2];
