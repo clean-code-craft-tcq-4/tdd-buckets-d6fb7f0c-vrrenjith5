@@ -1,4 +1,3 @@
-#include <iostream>
 #include "current_samples.h"
 
 rangeAndReadings inRangeReading(int* currentInAmpere, int sizeOfcurrentInAmpere) {
