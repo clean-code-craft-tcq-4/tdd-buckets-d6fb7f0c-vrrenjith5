@@ -42,3 +42,11 @@ REQUIRE(rangeReadings.range[0] == 24);
 REQUIRE(rangeReadings.range[1] == 27);
 }
 
+TEST_CASE("test current set 5") {
+int currentInAmpere[]  = {4,5};
+sizeOfcurrentInAmpere = sizeof(currentInAmpere)/ sizeof(currentInAmpere[0]);
+rangeReadings = inRangeReading(currentInAmpere, sizeOfcurrentInAmpere);
+REQUIRE(rangeReadings.numberOfReadingsInRange == 2);
+REQUIRE(rangeReadings.range[0] == 4);
+REQUIRE(rangeReadings.range[1] == 5);
+}
