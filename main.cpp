@@ -1,6 +1,7 @@
 #include <iostream>
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 #include "test/catch.hpp"
+#include "current_samples.h"
 
 TEST_CASE("test current set 1") {
 int currentInAmpere[]  = {4,5,6};
