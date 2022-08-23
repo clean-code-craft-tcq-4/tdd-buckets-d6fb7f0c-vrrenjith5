@@ -3,12 +3,10 @@
 
 #include <iostream>
 #include <algorithm>
+#include <string>
+#include <vector>
+using namespace std;
 
-typedef struct {
-  int numberOfReadingsInRange;
-  int range[2];
-}rangeAndReadings;
-
-rangeAndReadings inRangeReading(int* currentInAmpere, int sizeOfcurrentInAmpere);
+vector<string> consecutiveCurrentRanges(unsigned int* currentInAmpere, unsigned int sizeOfcurrentInAmpere);
 
 #endif /*__CURRENT_SAMPLES_H_ */
